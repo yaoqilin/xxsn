@@ -16,20 +16,20 @@
     "list": [
       {
         "text": "学习",
-        "iconPath": "images/top.png",
-        "selectedIconPath": "images/top.png",
+        "iconPath": "images/learn2.png",
+        "selectedIconPath": "images/learn1.png",
         "pagePath": "pages/index/index"
       },
       {
         "text": "排名",
-        "iconPath": "images/top.png",
-        "selectedIconPath": "images/top.png",
+        "iconPath": "images/top2.png",
+        "selectedIconPath": "images/top1.png",
         "pagePath": "pages/logs/logs"
       },
       {
         "text": "我的",
-        "iconPath": "images/me.png",
-        "selectedIconPath": "images/me.png",
+        "iconPath": "images/me2.png",
+        "selectedIconPath": "images/me1.png",
         "pagePath": "pages/me/me"
       }
     ]

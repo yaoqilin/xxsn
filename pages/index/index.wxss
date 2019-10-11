@@ -1,1 +1,12 @@
 /* pages/index/index.wxss */
+.container > view{
+  display: inline-block;
+  width: 27%;
+  height: 100px;
+  margin: 3%;
+  background-color: green;
+  border-radius: 3px;
+  color: wheat;
+  text-align: center;
+  line-height: 100px;
+}
