@@ -1,13 +1,38 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#1bd0bd",
     "navigationBarTitleText": "答题",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#1bd0db",
+    "color": "#dae5e5",
+    "list": [
+      {
+        "text": "学习",
+        "iconPath": "images/top.png",
+        "selectedIconPath": "images/top.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "排名",
+        "iconPath": "images/top.png",
+        "selectedIconPath": "images/top.png",
+        "pagePath": "pages/logs/logs"
+      },
+      {
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me.png",
+        "pagePath": "pages/me/me"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
