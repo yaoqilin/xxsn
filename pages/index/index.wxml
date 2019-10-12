@@ -1,21 +1,6 @@
 <!--pages/index/index.wxml-->
 <view class="container">
-  <view class="title">
-      <text>学汉字</text>
-  </view>
-  <view>
-      <text>学古诗</text>
-  </view>
-  <view>
-      <text>学儿歌</text>
-  </view>
-  <view>
-      <text>学数学</text>
-  </view>
-  <view>
-      <text>学英语</text>
-  </view>
-  <view>
-      <text>作练习</text>
+  <view wx:for = "{{array}}" style='background-color:{{item.color}}' bindtap="bindViewClick">
+      <text>{{item.text}}</text>
   </view>
 </view>
