@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/me/me",
-    "pages/font/font"
+    "pages/font/font",
+    "pages/math/math"
   ],
   "window": {
     "backgroundTextStyle": "light",
