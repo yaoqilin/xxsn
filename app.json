@@ -5,7 +5,8 @@
     "pages/me/me",
     "pages/font/font",
     "pages/math/math",
-    "pages/english/english"
+    "pages/english/english",
+    "pages/poetry/poetry"
   ],
   "window": {
     "backgroundTextStyle": "light",
