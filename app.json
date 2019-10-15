@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/me/me",
     "pages/font/font",
-    "pages/math/math"
+    "pages/math/math",
+    "pages/english/english"
   ],
   "window": {
     "backgroundTextStyle": "light",
