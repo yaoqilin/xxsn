@@ -28,7 +28,7 @@ Page({
   onLoad: function(options) {
     var that = this;
     wx.request({
-      url: 'http://api.jisuapi.com',
+      url: 'https://api.jisuapi.com/zidian/word',
       data: {
         // appkey: 'yourappkey',
         // word:'好'

@@ -1,25 +1,11 @@
-// pages/english/english.js
+// pages/joke/joke.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: [{
-      font: '大',
-      words: '大树，大楼'
-    },
-    {
-      font: '小',
-      words: '小草，小鱼'
-    }, {
-      font: '高',
-      words: '高山,高兴'
-    }, {
-      font: '低',
-      words: '高低，低温'
-    }
-    ]
+
   },
 
   /**
