@@ -96,7 +96,7 @@ Page({
   bindViewClick: function() {
     console.log("待开发")
     wx.navigateTo({
-      url: '../font/font'
+      url: '../joke/joke'
     })
   }
 })

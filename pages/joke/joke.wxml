@@ -1,2 +1,7 @@
 <!--pages/joke/joke.wxml-->
-<text>pages/joke/joke.wxml</text>
+<view class="container">
+<!-- <text>{{array.total}}</text> -->
+  <view wx:for = "{{array.list}}">
+      <text>{{item.content}}</text>
+  </view>
+</view>
