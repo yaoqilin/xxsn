@@ -1,5 +1,5 @@
 <!--pages/joke/joke.wxml-->
-<view class="container">
+<view class="container" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
 <!-- <text>{{array.total}}</text> -->
   <view wx:for = "{{array.list}}">
       <text>{{item.content}}</text>
