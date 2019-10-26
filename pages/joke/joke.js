@@ -21,6 +21,8 @@ Page({
       appkey: '755a617e607a789e'
     }
     this.getQuery(data);
+
+    this.touchStart.touchStart();
   },
 
   /**
@@ -100,5 +102,5 @@ Page({
       }
     })
   }
-
+  
 })

@@ -7,8 +7,7 @@
     "pages/math/math",
     "pages/english/english",
     "pages/poetry/poetry",
-    "pages/joke/joke",
-    "utils/util"
+    "pages/joke/joke"
   ],
   "window": {
     "backgroundTextStyle": "light",
