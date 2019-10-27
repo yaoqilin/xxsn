@@ -76,5 +76,34 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  /**
+   * 获取界面数据
+   */
+  getQuery: function(data) {
+    var that = this;
+    console.log(that)
+    wx.request({
+      url: 'https://api.jisuapi.com/xiaohua/text',
+      data: data,
+      method: 'POST',
+      header: {
+        'content-type': 'application/x-www-form-urlencoded'
+      },
+      success: function (res) {
+        console.log(res);
+        that.setData({
+          array: res.data.result
+        });
+        console.log(res.data.result);
+      },
+      fail: function () {
+        // fail
+      },
+      complete: function () {
+        console.log("d");
+      }
+    })
   }
 })
